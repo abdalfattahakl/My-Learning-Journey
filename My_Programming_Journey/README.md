@@ -22,6 +22,14 @@ Inside this repository, each folder represents a milestone dedicated to masterin
 *   Designing complex data arrangements using advanced semantic tables (`<thead>`, `<tbody>`, `rowspan`).
 *   Configuring dynamic layout flows (`dir="rtl"` / `dir="ltr"`) to suit contextual project requirements.
 
+### 📁 [day4](./day4) - Lists, Hyperlinks, & Semantic Architecture
+*  Milestone: Built a fully integrated, multi-page educational web platform named "النحو السالك" consisting of 3 interconnected pages (index.html, content.html, contactus.html).
+
+*  Skills Acquired: Mastering relative file path trees (../), differentiating between the three list types (<ul>, <ol>, <dl>), and writing production-ready Semantic HTML5.
+
+*  Problem Solving: Independently resolved CSS Specificity issues by targeting localized navigation selectors (nav ul li).
+
+*  Metrics: Logged 2 hours and 40 minutes of deep, focused development utilizing Pomodoro blocks to solidify sustainable learning habits.
 ---
 
 ## 🛠️ Tech Stack & Tools
@@ -42,4 +50,4 @@ Inside this repository, each folder represents a milestone dedicated to masterin
 
 ## 👤 Author
 
-*   **Abd Al-Fattah Akl** - *Educator & Web Developer*
+*   **Abd Al-fattah Akl** - *Educator & Web Developer*
