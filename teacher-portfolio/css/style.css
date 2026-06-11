@@ -1,0 +1,120 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: #ffed85b2 url(../img/bg.png) center/cover;
+
+}
+
+header img{
+    width: 100%;
+}
+nav{
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    background:rgb(17, 26, 4);
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+
+}
+nav ul li a{
+    padding: 10px;
+
+    color: rgb(226, 223, 61);
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    border: 1px solid;
+}
+nav ul li a:hover{
+    color: white;
+    transition: 5s;
+}
+.wlc{
+    text-align: center;
+    background: white;
+    width: max-content;
+    margin: auto;
+    color:firebrick;
+    font-size:200%;
+}
+section p:first-of-type{
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+
+}
+.info{
+
+    text-align: center;
+}
+.info img{
+    width: 250px;
+
+    
+}
+.wor{
+    background: white;
+    width: fit-content;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+}
+.wor h3{
+    background-color: black;
+    color: white;
+}
+.cont-pg{
+    text-align: center;
+    color: firebrick;
+    background: white;
+    width: fit-content;
+    margin: auto;
+    padding: 5px;
+}
+.cont-pg p{
+    color: black;
+}
+table,td,th{
+    margin: auto;
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+caption{
+    background: black;
+    color: white;
+    word-spacing: 10px;
+    font-weight: bolder;
+    padding: 5px 0;
+}
+th,td{
+    
+    padding: 20px;
+}
+thead{
+    background-color: dodgerblue;
+}
+.ifrm{
+    text-align: center;
+}
+iframe{
+    border: 2px red double;
+    width: 45%;
+}
+.x2{
+    width: 60%;
+}
+.x2 a{
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    background:rgb(17, 26, 4);
+    color:rgb(226, 223, 61);
+    padding: 2px 0px;
+    word-spacing: 10px;
+}
