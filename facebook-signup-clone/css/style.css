@@ -1,0 +1,69 @@
+body{
+    width: 550px;
+    font-family: monospace;
+    margin: auto;
+}
+header{
+    padding: 20px 0
+    ;
+}
+a{
+    text-decoration: none;
+}
+.fst h2,p{
+    
+    margin: 0px;
+}
+.fst p{
+    margin-bottom: 20px;
+}
+label{
+    font-weight: bolder;
+}
+.uname input{
+    width: 47.8%;
+    border-radius: 10px;
+    height: 30px;
+}
+div{
+    padding: 10px 0;
+}
+table{
+    width: 100%;
+    text-align: left;
+}
+td select{
+    width: 100%;
+    border-radius: 10px;
+    height: 35px;
+}
+.gend select{
+    width: 100%;
+    border-radius: 10px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+.mobile input, .password input{
+    width: 100%;
+    border-radius: 10px;
+    height: 30px;
+}
+.redo{
+    margin-bottom: 10px;
+}
+.sub{
+    text-align: center;
+}
+button{
+   width: 100%;
+
+   border-radius: 30px 30px ;
+   background: rgb(43, 132, 248);
+   color: white;
+   height: 30px;
+}
+.foot{
+    text-align: center;
+    border: 1px solid;
+    border-radius: 30px ;
+}
