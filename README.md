@@ -74,6 +74,14 @@ Inside this repository, each folder represents a milestone dedicated to masterin
     - **DOM Component Conflict Resolution:** Independently debugging and resolving severe CSS cascading overlaps (`.progg` vs `.prog`) by establishing isolated, semantic class naming conventions to prevent layout layout regressions.
     - **Data Flow Representation:** Building structural layout wrappers (`.bar` parent container with `overflow: hidden`) to house fluid percentage-based children nodes representing real-world programming skill bars.
 * **UX Strategy & Branding:** Deploying integrated metadata configurations with precise client-side viewport specifications, and overriding native browser defaults via comprehensive CSS resets (`* { box-sizing: border-box; }`) to guarantee responsive layout delivery on local tablet environments.
+
+* * ### 📁 [day11-12](./pages/socialmedia.html) [habits-social-hub](./pages/socialmedia.html) - Navigation Engineering, Box Model Alignment & Environment Refactoring
+* **Milestone:** Engineered a fully integrated "Social Media Hub" module (`socialmedia.html`) connected to the primary ecosystem, designed to serve as a clean, responsive portal linking the developer's core educational and social networks.
+* **Skills Acquired:**
+    - **Advanced Layout Alignment:** Mastering multi-column row wrapping by constructing a scoped parent-child architecture (`.dad` ⬅️ `.son`). Utilized `display: inline-block` coupled with `vertical-align: middle;` to eliminate baseline alignment anomalies between textual nodes and interactive elements.
+    - **Navigation Architecture & UX Logic:** Implementing strict enterprise-grade user experience (UX) routing rules. Mastered the "Dead Click" prevention model by swapping active-page paths with null anchors (`#`) and deploying a specialized `.active` state configuration (`pointer-events: none;`) to lock redundant server requests and optimize client-side performance.
+    - **Semantic Component Refactoring:** Resolving native tag-nesting conflicts by moving structural hierarchy away from invalid inline button wrappers (`<a><button>`) into pure CSS link-to-button transformations (`.btn-link`) leveraging fluid padding configurations.
+* **Mental Model Evolution (The "Sanctuary Refactoring"):** Successfully implemented the *Atomic Habits* environment-design strategy by fully wiping, optimizing, and configuring a dedicated Ubuntu Linux terminal station. This process established a distraction-free, localized coding sanctuary, aligning operating system workflows directly with high-performance engineering goals.
 ---
 
 ## 🛠️ Tech Stack & Tools
