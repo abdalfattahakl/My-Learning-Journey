@@ -1,0 +1,181 @@
+html{
+    scroll-behavior: smooth;
+
+}
+body{
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header img{
+    width: 100%;
+    display: block;
+}
+/* .bg{
+    max-width: 1000px;
+    background: lightblue;
+    margin: auto;
+    padding: 0 10px 40px ;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+💡 فكرة جانبية وتجريبية (غير دلالية ولكنها تعطي بروازاً مستمراً):
+   تمت تجربة إعطاء كلاس مشترك (.bg) لكل من الـ <nav> والـ <main> 
+   مع تصفير الـ margin لدمج الحواف بصرياً.
+   ملاحظة للمستقبل: تحتاج لضبط الـ width للـ nav داخلياً لتجنب تمدد الشريحة البرتقالية.}*/
+nav{
+    text-align: center;
+    background: orange;
+    width: 600px;
+    margin: auto;
+    border-radius: 40px;
+}
+nav ul li{
+    display:inline-block;
+    padding: 10px;
+    margin: 5px;
+}
+nav a{
+    text-decoration: none;
+    font-family: tahoma,Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: dodgerblue;
+}
+nav a:hover{
+    background: rgba(30, 143, 255, 0.137);
+    padding: 10px;color: white;
+    text-shadow: 1px 1px 10px white,
+                1px 1px 30px dodgerblue,
+                2px 2px 40px white;
+
+}
+.active{
+    color: rgb(2, 25, 48);
+    font-weight: bold;
+    pointer-events: none; /* يمنع الضغط على الرابط تماماً طالما المستخدم بداخل الصفحة*/
+}
+.container{
+    margin: auto;
+}
+.h-head{
+    background: dodgerblue;
+    width: 350px;
+    padding: 10px;
+    margin: 30px auto 0;
+    border: 2px solid white;
+    border-radius: 30px 10px;
+    box-shadow: 1px 1px 10px 10px orange;
+}
+.container h2{
+    width: fit-content;
+    color: white;
+    margin: auto;
+}
+.container .hoby{
+    text-align: center;
+}
+.container .habb{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border:3px solid white;
+    box-shadow: 1px 1px 10px 10px orange;
+    border-radius: 50%;
+    background-color: dodgerblue;
+    margin: 30px;
+    line-height: 100px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.hoby a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 10px lightblue,
+                1px 1px 20px white;
+}
+.container .habb:hover {
+    transform: translateY(-5px);
+    
+}
+.hoby a:hover{
+    color: orange;
+}
+.btm{
+    text-align: center;
+}
+.exp-habb{
+    padding: 0 10px;
+    background: dodgerblue;
+    margin:0 auto 20px;
+    width:60%;
+    color: white;
+    border-radius: 10px 30px;
+    box-shadow: inset 1px 1px 10px 10px orange;
+    overflow: hidden;
+}
+#read, #code, #sport,#other{
+    background: orange;
+    width: 100%;
+    line-height: 50px;
+}
+.exp-habb p{
+    line-height: 1.6;
+    padding: 30px 0 ;
+
+}
+/* My Habits | socialmedia */
+
+.dad{
+    text-align: center;
+}
+.son{
+    width: 150px;
+    margin: 10px 15px;
+    background: dodgerblue;
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+}
+.bab1, .bab2, .bab3, .bab4{
+    color: white;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 5px;
+
+
+}
+.dad .bab1{
+    margin-top: 30px;
+}
+.dad .raw{
+    width: 200px;
+    background: transparent;
+    padding: 5px;
+}
+
+.btn-link{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 20px;
+    background-color: rgb(8, 83, 158);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+
+}
+.btn-link:hover {
+    background-color: dodgerblue; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    background: rgb(8, 83, 158);
+    padding: 20px;
+    color: white;
+}
+
