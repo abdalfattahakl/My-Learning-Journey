@@ -1,0 +1,114 @@
+/* خط تم استدعائه من google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&family=Reem+Kufi+Fun:wght@400..700&display=swap');
+
+/*1- جميع عناصر ال box model */ 
+*{
+    padding: 0; /* لمنع وجود حواشي داخلية  */
+    margin: 0; /* لمنع وجود هوامش خارجية  */
+    box-sizing: border-box; /* بداية المحتوى من الاطار */
+    
+}
+
+/* 2- تهيئة الجسم الخاص بالصفحة*/
+body{
+    font-family: "Reem Kufi Fun", sans-serif; /* الخط الافتراضي للصفحة وهو خط مستدعى */
+    background-color: #f7f9fa; /* لون افتراضي للخلفية ليبرز الكروت */
+    min-height: 100vh; /* ضمان امتلاء طول الشاشة  */
+}
+
+/* 3- تهيئة حاوية شريط التنقل */
+.my-nav{
+    background-color: #1a1e21; /* لون الخلفية بحيث يظهر */
+    padding: 0.6rem 0.5rem; /* تحديد الهوامش الداخلية */
+}
+
+/* 4- تهيئية عناصر شريط التنقل الداخلية */
+.my-nav ul li{
+    display: inline-block; /* تحويل العناصر من مجرد كل عنصر في صف الى صف واحد */
+    padding: 0.5rem 0.6rem; /* اخذ حواشي داخلية لكي يبقى المحتوى معه مساحة حوله */
+    margin-left: 0.2rem; /* اضافة هامش خارجي من ناحية اليسار حتى لا يتداخل العناصر */
+    font-size: 1.2rem;
+}
+
+/* 5- تهيئية روابط شريط التنقل الداخلية */
+.my-nav ul li a{
+    text-decoration: none; /* ازالة الخط السفلي الافتراضي */
+    color: #fff; /* اعطاء لون ابيض ليناسب الخلفية والتصميم */
+    transition: color 0.3s ease; 
+}
+
+/* 6- ضبط مرور الماوس*/
+.my-nav ul li a:hover{
+    color: gold; /* اضافة لون ذهبي عند المرور */
+}
+
+/* 7- ضبط صورة الهيدر*/
+.header-img img{
+    width: 100%; /* اضافة عرض للصورة  */
+    display: block; /*  تحويل الصورة لعنصر على سطر واحد */
+}
+/* 8- ضبط صورة الهيدر*/
+.my-sections{
+    text-align: center; /* توسيط النصوص للصفحة */
+}
+
+/* 9- تنسيق رؤس الاقسام الاساسية*/
+.parts h2{
+    background-color: #2c302e; /*اعطاء لون لرؤس الاقسام*/
+    line-height:2; /* طول الخط من اعلى وأسفل */
+    margin: 0 auto 1rem ;
+    color: #fff;
+}
+
+/* 10- ضبط الحاوية الرئيسية للمقالات*/
+article{
+    max-width: 31%; /* العرض لكل حاوية متجاوب */
+    float: right; /* خاصية الطفو لكل الحاويات */
+    margin-inline-start: 2%; /* تعطي مسافة أوتوماتيكية بين الكروت حسب اتجاه اليمين واليسار */
+    background-image: radial-gradient(circle at center, #f4f1ea, #e4dfd3); /* الوان متدرجة كخلفية*/
+    padding: 1rem; /* مسافة أمان داخلية حول محتويات الكارت */
+    border-radius: 8px; /* تنعيم الزوايا الحادة لجعل التصميم يبدو عصرياً ومريحاً */
+    color: #333333; /* لون الكتابة*/
+}
+
+/* 11- ضبط رابط تصفح الكتاب داخل الكارت */
+article a {
+    text-decoration: none;
+    color: #92884f; /* اللون الزيتوني الفخم المتناسق مع الهوية */
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 0.5rem;
+    transition: color 0.2s ease;
+}
+
+article a:hover {
+    color: gold; /* يتحول للذهبي الملكي عند مرور الماوس */
+}
+
+/* 12- تعديل صورة المقال*/
+article img{
+    height: auto; /* طول الصورة*/
+    width: 80%; /* عرص الصورة متجاوب */
+    display: block; /* تحويلها لكتلة */
+    margin: 0 auto;  /* لتوسيطها بداخل الكارت بالملّي */
+}
+
+/* 13- تنظيف المساحات وتعديلها*/
+.clear{
+    clear: both; /* خاصية تنظيف ل bug float */
+}
+
+
+/* 14- ضبط الفوتر */
+footer{
+    background-color: #1a1e21; /* لون مناسب  مثل الشريط العلوي */
+    text-align: center; /* توسط الخط نصف الصفحة */
+    padding: 0.8rem 0; /* ضبط الهوامش الداخلية  */
+    color: #fff; /* ضبط لون الخط مناسب */
+}
+
+/* 15- ضبط رابط الفوتر */
+footer a{
+    text-decoration: none; /* ازالة الخط اسفل الرابط */
+    color: gold; /* تغيير اللون الذهبي */
+}
